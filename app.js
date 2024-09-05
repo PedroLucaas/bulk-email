@@ -68,7 +68,7 @@ app.post("/", upload.none(), (req, res) => {
       return;
     }
   });
-    res.send('Usuário adicionado com sucesso');
+    res.redirect('https://heloplantier.com/obrigado');
 });
 
 
